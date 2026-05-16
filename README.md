@@ -122,11 +122,11 @@ The app will open at **http://localhost:8501** in your browser.
 
 ## 🖥️ Screenshots
 
-> *(Add screenshots here after running the app)*
+
 
 | Home Page | Prediction Page |
 |-----------|----------------|
-| ![Home]() | ![Predict]() |
+| ![Home](Home_Page.png) | ![Predict](Prediction_page.png) |
 
 ---
 

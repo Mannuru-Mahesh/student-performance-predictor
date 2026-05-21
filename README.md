@@ -1,4 +1,4 @@
-# 🎓 Student Performance Predictor
+Student Performance Predictor
 
 > A beginner-friendly end-to-end Data Science project that predicts student exam scores and pass/fail outcomes using Machine Learning.
 
@@ -9,35 +9,35 @@
 
 ---
 
-## 📌 Description
+Description
 
 This project builds a complete machine learning pipeline — from synthetic data generation through model training to a polished web application — to predict how well a student will perform based on:
 
-- 📚 Study hours per day
-- 🏫 Attendance percentage
-- 📄 Previous exam score
-- 😴 Sleep hours per night
-- 🌐 Internet access at home
-- 👨‍👩‍🎓 Parental education level
-- ⚽ Extracurricular participation
+- Study hours per day
+- Attendance percentage
+- Previous exam score
+- Sleep hours per night
+- Internet access at home
+- Parental education level
+- Extracurricular participation
 
 ---
 
-## ✨ Features
+Features
 
-- ✅ **600-row synthetic dataset** with realistic patterns and ~5% missing values
-- ✅ **Data cleaning** — median imputation for missing values
-- ✅ **Categorical encoding** — ordinal & binary encoding
-- ✅ **Two trained models**:
+- **600-row synthetic dataset** with realistic patterns and ~5% missing values
+- **Data cleaning** — median imputation for missing values
+- **Categorical encoding** — ordinal & binary encoding
+- **Two trained models**:
   - Linear Regression → predicts final score (R² ≈ 0.83)
   - Random Forest → predicts Pass/Fail (accuracy ≈ 86%)
-- ✅ **Interactive Streamlit web app** with 6 pages
-- ✅ **Charts & visualisations** (distributions, heatmaps, scatter plots)
-- ✅ **Saved models** using joblib
+- **Interactive Streamlit web app** with 6 pages
+- **Charts & visualisations** (distributions, heatmaps, scatter plots)
+- **Saved models** using joblib
 
 ---
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 | Tool | Version | Purpose |
 |------|---------|---------|
@@ -52,7 +52,7 @@ This project builds a complete machine learning pipeline — from synthetic data
 
 ---
 
-## 📁 Folder Structure
+## Folder Structure
 
 ```
 student-performance-predictor/
@@ -78,7 +78,7 @@ student-performance-predictor/
 
 ---
 
-## ⚡ Setup Instructions (macOS / Linux)
+## Setup Instructions (macOS / Linux)
 
 ### 1. Clone or download the project
 ```bash
@@ -120,7 +120,7 @@ The app will open at **http://localhost:8501** in your browser.
 
 ---
 
-## 🖥️ Screenshots
+## Screenshots
 
 
 
@@ -130,7 +130,7 @@ The app will open at **http://localhost:8501** in your browser.
 
 ---
 
-## 🔮 Future Improvements
+## Future Improvements
 
 - [ ] Add more real-world features (tutoring hours, transport time, etc.)
 - [ ] Try XGBoost or a Neural Network
@@ -142,13 +142,13 @@ The app will open at **http://localhost:8501** in your browser.
 
 ---
 
-## 📜 License
+## License
 
 This project is licensed under the **MIT License** — feel free to use and modify it for learning.
 
 ---
 
-## 👤 Author
+## Author
 
 Built as a beginner Data Science portfolio project.  
 Feel free to ⭐ star this repository if you found it helpful!

@@ -7,7 +7,6 @@ Student Performance Predictor
 ![scikit-learn](https://img.shields.io/badge/scikit--learn-1.5-orange?logo=scikit-learn)
 ![License](https://img.shields.io/badge/license-MIT-green)
 
----
 
 Description
 
@@ -21,23 +20,22 @@ This project builds a complete machine learning pipeline — from synthetic data
 - Parental education level
 - Extracurricular participation
 
----
 
 Features
 
-- **600-row synthetic dataset** with realistic patterns and ~5% missing values
-- **Data cleaning** — median imputation for missing values
-- **Categorical encoding** — ordinal & binary encoding
-- **Two trained models**:
+- 600-row synthetic dataset with realistic patterns and ~5% missing values
+- Data cleaning — median imputation for missing values
+- Categorical encoding — ordinal & binary encoding
+- Two trained models:
   - Linear Regression → predicts final score (R² ≈ 0.83)
   - Random Forest → predicts Pass/Fail (accuracy ≈ 86%)
-- **Interactive Streamlit web app** with 6 pages
-- **Charts & visualisations** (distributions, heatmaps, scatter plots)
-- **Saved models** using joblib
+- Interactive Streamlit web app with 6 pages
+- Charts & visualisations (distributions, heatmaps, scatter plots)
+- Saved models using joblib
 
----
 
-## Tech Stack
+
+Tech Stack
 
 | Tool | Version | Purpose |
 |------|---------|---------|
@@ -50,11 +48,11 @@ Features
 | Streamlit | 1.35 | Web app |
 | Joblib | 1.4 | Model persistence |
 
----
 
-## Folder Structure
 
-```
+Folder Structure
+
+
 student-performance-predictor/
 │
 ├── data/
@@ -74,53 +72,46 @@ student-performance-predictor/
 ├── requirements.txt            ← Python dependencies
 ├── README.md                   ← This file
 └── .gitignore
-```
 
----
 
-## Setup Instructions (macOS / Linux)
+Setup Instructions (macOS / Linux)
 
-### 1. Clone or download the project
-```bash
+1. Clone or download the project
+
 git clone https://github.com/yourusername/student-performance-predictor.git
 cd student-performance-predictor
-```
 
-### 2. Create a virtual environment
-```bash
+2. Create a virtual environment
 python3 -m venv venv
-```
 
-### 3. Activate the virtual environment
-```bash
+3. Activate the virtual environment
+
 source venv/bin/activate
-```
 
-### 4. Install dependencies
-```bash
+
+4. Install dependencies
 pip install -r requirements.txt
-```
 
-### 5. Generate the dataset
-```bash
+
+5. Generate the dataset
+
 python generate_data.py
-```
 
-### 6. Train the models
-```bash
+6. Train the models
+
 python train_model.py
-```
 
-### 7. Run the web app
-```bash
+
+7. Run the web app
+
 streamlit run app.py
-```
 
-The app will open at **http://localhost:8501** in your browser.
 
----
+The app will open at http://localhost:8501 in your browser.
 
-## Screenshots
+
+
+Screenshots
 
 
 
@@ -130,7 +121,7 @@ The app will open at **http://localhost:8501** in your browser.
 
 ---
 
-## Future Improvements
+Future Improvements
 
 - [ ] Add more real-world features (tutoring hours, transport time, etc.)
 - [ ] Try XGBoost or a Neural Network
@@ -140,15 +131,13 @@ The app will open at **http://localhost:8501** in your browser.
 - [ ] Add a "What-if" analysis slider tool
 - [ ] Multi-language support
 
----
 
-## License
+License
 
-This project is licensed under the **MIT License** — feel free to use and modify it for learning.
+This project is licensed under the MIT License — feel free to use and modify it for learning.
 
----
 
-## Author
+Author
 
 Built as a beginner Data Science portfolio project.  
 Feel free to ⭐ star this repository if you found it helpful!
